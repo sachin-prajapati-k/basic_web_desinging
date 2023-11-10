@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 1000px;
+            height: 450px;
+            animation-name: sachinmain;
+            animation-duration: 10s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes sachinmain {
+            0%{background-image:linear-gradient(45deg, red,yellow ,green);}
+            10%{background-image:linear-gradient(45deg, yellow ,green,red);}
+            20%{background-image:linear-gradient(45deg, green,red,yellow);}
+            30%{background-image:linear-gradient(45deg, red,yellow,green);}
+            40%{background-image:linear-gradient(45deg, yellow,green,red);}
+            50%{background-image:linear-gradient(45deg, green,red,yellow);}
+            60%{background-image:linear-gradient(45deg, red,yellow ,green);}
+            70%{background-image:linear-gradient(45deg, yellow ,green,red);}
+            80%{background-image:linear-gradient(45deg, green,red,yellow);}
+            90%{background-image:linear-gradient(45deg, red,yellow,green);}
+            100%{background-image:linear-gradient(45deg, yellow,green,red);}
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="main">sachin</div>
+</body>
+</html>

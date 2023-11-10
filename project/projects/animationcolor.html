@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100%px;
+            height: 700px;
+            animation-name: sachinmain;
+            animation-duration: 10s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes sachinmain {
+            0%{background-image:linear-gradient(45deg, red,yellow ,green);}
+            10%{background-image:linear-gradient(45deg, yellow ,green,red);}
+            20%{background-image:linear-gradient(45deg, green,red,yellow);}
+            30%{background-image:linear-gradient(45deg, red,yellow,green);}
+            40%{background-image:linear-gradient(45deg, yellow,green,red);}
+            50%{background-image:linear-gradient(45deg, green,red,yellow);}
+            60%{background-image:linear-gradient(45deg, red,yellow ,green);}
+            70%{background-image:linear-gradient(45deg, yellow ,green,red);}
+            80%{background-image:linear-gradient(45deg, green,red,yellow);}
+            90%{background-image:linear-gradient(45deg, red,yellow,green);}
+            100%{background-image:linear-gradient(45deg, yellow,green,red);}
+         
+        }
+        .main1{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            animation-name:sachin;
+            animation-duration: 8s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            margin: 2px;
+            animation-direction:reverse ;
+            position: relative;
+            font-size: 50px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 100px 0px 100px 0px;
+
+        }
+        @keyframes sachin {
+        
+        0% { background-color:red; top: 0px; left: 0px;transform: skew(40deg,20deg);}
+        25% { background-color:green; top: 0px; left: 0px;transform: skew(5deg,35deg);}
+        50% { background-color:yellow; left: 100%; top: 400px;transform: skew(45deg,10deg);}
+        90% { background-color:purple; top: 400px; left: 0px;transform: skew(60deg,14deg);}
+        100% { background-color: blue; top: 0px; left: 0px;transform: skew(40deg,15deg);}
+        }
+        .main2{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            animation-name:sachin1;
+            animation-duration: 8s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            margin: 2px;
+            animation-direction:reverse ;
+            position: absolute;
+            font-size: 50px;
+            line-height: 200px;
+            text-align: center;
+            margin-top: 420px;
+            margin-left:  1100px;
+            border-radius: 100px 0 100px 0;
+
+        }
+        @keyframes sachin1 {
+        
+        0% { background-color:red; top: 0px; left: 0px;transform: rotate( 70deg); }
+        25% { background-color:green; top: 0px; left: 0px;transform: rotate( 140deg);}
+        50% { background-color:yellow; left: -80%; top: -400px;transform: rotate( 210deg);}
+        90% { background-color:purple; top: -400px; left: 0px;transform: rotate( 280deg);}
+        100% { background-color: blue; top: 0px; left: 0px;transform: rotate( 350deg);}
+        }
+        .ball3{
+            width: 200px;
+            height: 200px;
+            border: 10px solid black;
+            animation-name: sachin3;
+            animation-duration: 15s;
+            animation-delay: s;
+            animation-iteration-count: infinite;
+            /* margin: 2px; */
+            /* animation-direction:alternate-reverse ; */
+            position: absolute;
+            font-size: 50px;
+            line-height: 200px;
+            text-align: center;
+            /* margin-top: 420px;
+            margin-left:  1050px; */
+            border-radius: 50% 50% 50% 50% ;
+            border-style: groove;
+        }
+        @keyframes sachin3{
+            0% { background-color:rgb(10, 251, 18); top: 0px; left: 0px;transform: rotate( 15deg); background-image: linear-gradient(45deg, red,yellow,green,blue);}
+        5% { background-color:green; top: 400px; left: 00px; transform: scale(2);transform: rotate( 30deg); background-image: linear-gradient(45deg, rgb(138, 241, 27),rgb(29, 246, 159),rgb(207, 221, 135),rgb(164, 164, 249));}
+        10% { background-color:yellow; left: 200px; top: 0px;transform: scale(1);transform: rotate( 45deg); background-image: linear-gradient(45deg, rgb(77, 232, 240),rgba(52, 236, 165, 0.682),green,rgb(232, 236, 43));}
+        15% { background-color:purple; top: 400px; left: 200px;transform: rotate( 60deg); background-image: linear-gradient(45deg, rgb(239, 85, 241),rgb(232, 65, 159),rgb(144, 63, 236),rgb(186, 203, 236));}
+        20% { background-color: blue; top: 0px; left: 400px;transform: rotate( 75deg); background-image: linear-gradient(45deg, rgb(195, 233, 60),rgb(56, 243, 171),rgb(32, 184, 244),rgb(160, 252, 32));} 
+        25% { background-color: rgb(64, 238, 166); top: 400px; left: 400px;transform: rotate( 90deg); background-image: linear-gradient(45deg, rgb(247, 135, 50),rgb(87, 250, 62),rgb(195, 54, 242),rgb(162, 162, 232));} 
+        30% { background-color: rgb(75, 138, 233); top: 0px; left: 600px;transform: rotate( 105deg); background-image: linear-gradient(45deg, rgb(146, 239, 64),rgb(37, 243, 105),rgb(58, 229, 238),rgb(135, 246, 38));} 
+        35% { background-color: rgb(113, 149, 28); top: 400px; left: 600px;transform: rotate( 120deg); background-image: linear-gradient(45deg, rgba(0, 255, 213, 0.574),rgb(31, 164, 158),rgb(136, 194, 136),rgb(240, 157, 31));} 
+        40% { background-color: rgb(221, 131, 35); top: 0px; left: 800px;transform: rotate( 135deg); background-image: linear-gradient(45deg, rgb(214, 234, 84),rgb(79, 238, 87),rgb(99, 164, 233),rgb(38, 249, 217));} 
+        45% { background-color: rgb(224, 69, 211); top: 400px; left: 800px;transform: rotate( 150deg); background-image: linear-gradient(45deg, rgb(122, 250, 59),rgb(151, 237, 90),rgb(131, 172, 253),rgb(202, 91, 242));} 
+        50% { background-color: rgb(223, 43, 67); top: 0px; left: 1000px;transform: rotate( 165deg); background-image: linear-gradient(45deg, rgb(167, 239, 42),rgb(122, 164, 236),rgb(209, 253, 163),rgb(81, 225, 238));} 
+        55% { background-color: rgb(201, 240, 27); top: 0px; left: 1000px;transform: rotate( 175deg); background-image: linear-gradient(45deg, rgb(239, 205, 125),rgb(85, 249, 192),rgb(121, 224, 226),rgb(191, 191, 240));} 
+        60% { background-color: rgb(141, 128, 244); top: 400px; left: 800px;transform: rotate( 185deg); background-image: linear-gradient(45deg, rgb(238, 245, 39),rgb(176, 251, 96),rgb(51, 251, 211),rgb(235, 117, 248));} 
+        65% { background-color: rgb(245, 8, 158); top: 0px; left: 800px;transform: rotate( 200deg); background-image: linear-gradient(45deg, rgb(246, 211, 55),rgb(36, 243, 136),rgb(209, 236, 31),rgb(243, 146, 36));} 
+        70% { background-color: rgb(238, 145, 5); top: 400px; left: 600px;transform: rotate( 215deg); background-image: linear-gradient(45deg, rgb(253, 32, 180),rgb(29, 248, 194),rgb(214, 240, 16)rgb(61, 240, 180)e);} 
+        75% { background-color: rgb(223, 43, 67); top: 0px; left: 600px;transform: rotate( 230deg); background-image: linear-gradient(45deg, rgb(31, 238, 114),rgb(115, 243, 147),rgb(191, 241, 65),rgba(144, 144, 231, 0.711));} 
+        80% { background-color: rgb(17, 248, 98); top: 400px; left: 400px;transform: rotate( 245deg); background-image: linear-gradient(45deg, rgb(113, 189, 244),rgb(245, 116, 196),rgb(231, 75, 249),rgb(41, 244, 200));} 
+        85% { background-color: rgb(25, 243, 235); top: 0px; left: 400px;transform: rotate( 260deg); background-image: linear-gradient(45deg, rgb(229, 85, 251),rgb(102, 249, 119),rgb(255, 167, 51),rgba(223, 64, 255, 0.805));} 
+        90% { background-color: rgb(243, 231, 8); top: 400px; left: 200px;transform: rotate( 275deg); background-image: linear-gradient(45deg, rgb(240, 237, 51),rgb(40, 236, 206),rgb(254, 135, 200),rgb(62, 244, 174));} 
+        95% { background-color: rgb(241, 24, 67); top: 0px; left: 200px;transform: rotate( 290deg); background-image: linear-gradient(45deg, rgb(27, 240, 222),rgb(143, 202, 253),rgb(229, 250, 72),rgb(66, 251, 56));} 
+        100% { background-color: rgb(6, 241, 65); top: 0px; left: px;transform: rotate( 305deg); background-image: linear-gradient(45deg, rgb(147, 247, 25),rgb(249, 110, 154),rgb(172, 146, 251),rgb(244, 247, 33));} 
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+            <div class="main1">sachin1</div>
+            <div class="main2">sachin</div>
+            <div class="ball3">sachin</div>
+    </div>
+</body>
+</html>
