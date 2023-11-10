@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        var a=["sagar","harsh","aashu","zaid"];
+        document.write(a + "<br>");
+        a.sort();
+        document.write(a +"<br>");
+        a.reverse();
+        document.write(a + "<br>");
+        a.pop();
+        document.write(a + "<br>");
+        a.push("sachin");
+        a.push("sagar");
+        document.write(a + "<br>");
+        a.shift();
+        document.write(a + "<br>");
+        a.unshift("ritik");
+        document.write(a + "<br>");
+    </script>
+    <hr>
+    <br>
+    <script>
+        var a=["naman","sagar","harsh","rahul"];
+        var b=a.concat("yash", "zaid");
+                 document.write(b + "<br>");
+        var c=["rihan","zahir","affan"];
+        var x=["nakul", "quambar","verma"];
+        var d=a.concat(b);
+                document.write(d + "<br>");
+        var e=b.concat(a,x);
+                document.write(e + "<br>");
+    </script>
+    <hr>
+    <br>
+    <script>
+        var y=["sagar","harsh","naman"];
+        var z=y.join(" ");
+        document.write(z + "<br>");
+        var b=y.join("@");
+        document.write(b + "<br>");
+        var b=y.join(" / ");
+        document.write(b + "<br>");
+    </script>
+ </body>
+ </html>

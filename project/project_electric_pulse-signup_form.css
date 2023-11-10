@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.main_form_div{
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid black; */
+    border: none;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    align-content: center;
+}
+.sign_up_form{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    margin: 5px;
+    left: 100px;
+    text-align: center;
+}
+span{
+    position: relative;
+    top: 20px;
+    left: -80px;
+}
+/* span:hover{
+    top: 2px;
+    left: -80px;
+} */
+
+span  i{
+    color: black;
+    /* background-color: blue; */
+    /* display: block; */
+    font-size: 50px;
+    position: relative;
+    left: -20px;
+    /* text-indent: 30px; */
+    transform: translateY(-20px);
+    
+}

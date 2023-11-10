@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var hello= [
+            {firstname: "sachin", lastname: "prajapati", age:22},
+            {firstname: "harsh", lastname: "verma", age: 20},
+            {firstname: "rahul",lastname: "kumar", age:18},
+        ];
+        console.log(hello);
+        document.write(hello + "<br>");
+        document.write(hello[0].firstname + "  " + hello[0].lastname  + "<br>");
+        for(var a=0 ; a < hello.length; a++){
+            document.write(hello[a].firstname + " -- " + hello[a].lastname + " -- " + hello[a].age + "<br>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=20;
+        var b=40;
+        var z;
+        var z=a;
+        var a=b;
+        var b=z;
+        a++;
+        b++;
+        document.write("a="+a);
+        document.write("<br>");
+        document.write("b="+b);
+        document.write("<br>");
+    </script>
+    <!-- without third varible -->
+        <script>
+            var a=10;
+            var b=20;
+            a=a+b;
+            b=a-b;
+            a=a-b;
+            document.write("a="+a);
+            document.write("<br>");
+            b=a-b;
+            document.write("b="+b);
+            document.write("<br>");
+        </script>
+        <script>
+            var a=40;
+            var b=50;
+            a=a-b;
+            document.write(a);
+        </script>   
+</body>
+</html>

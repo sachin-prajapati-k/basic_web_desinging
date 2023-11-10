@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("<ol type=a>");
+        x="30";
+        var num=Number(x);
+        document.write("<li>");
+        document.write(num+20);
+        y=true;
+        var b=Number(y);
+        document.write("<li>");
+            document.write(b + "<br>");
+            z="54.55 56"; 
+            // we can use the (34 23 45); or (57 hello sachin); but not(hello word 34);
+            var c=parseInt(z);
+            document.write("<li>");
+            document.write(c + "<br>");
+            var d=parseFloat(z);
+            document.write("<li>");
+            document.write(d + "<br>");
+                w=45.34;
+                // we can use the value to check his method infinity, 34.432, "34", -34.3423 also for var f
+                var e=Number.isFinite(w);
+                document.write("<li>");
+                document.write(e + "<br>");
+                var f=Number.isInteger(w);
+                document.write("<li>");
+                    document.write(f + "<br>");
+                    zz=34.376634;
+                    var g=zz.toFixed(3);
+                    document.write("<li>");
+                        document.write(g + "<br>");
+                        var h=zz.toPrecision(4);
+                        document.write("<li>");
+                            document.write(h + "<br>");
+    </script>
+</body>
+</html>

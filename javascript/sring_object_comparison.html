@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="string1"></p>
+    <p id="string2"></p>
+    <p id="string3"></p>
+    <p id="string4"></p>
+    <p id="string5"></p>
+    <script>
+        var str1=('welcome to project electric pulse');
+        var str2=('welcome to project electric pulse');
+        var str3='welcome to project electric pulse';
+        var str4=str1;
+        document.getElementById("string1").innerHTML=str1==str2;
+        document.getElementById("string2").innerHTML=str2==str3;
+        document.getElementById("string3").innerHTML=str1===str4;
+        document.getElementById("string4").innerHTML=typeof(str1);
+        document.getElementById("string5").innerHTML=typeof(str3);
+    </script>
+</body>
+</html>

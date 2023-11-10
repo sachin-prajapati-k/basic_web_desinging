@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin-left: 150px;
+            margin-top: 50px;
+            /* border: 2px solid black; */
+        }
+      
+        .main ul{
+            list-style: none;
+         
+        }
+        .main ul li {
+            display: block;
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            margin-top: 1px;
+            
+        }
+        .main ul li:hover{
+            background-color: brown;
+        }
+        .main ul ul{
+            display: none;
+        }
+        .main ul li:hover>ul{
+            display: block;
+        }
+        .main ul ul ul{
+            position: relative;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <li>home</li>
+            <li>cources
+                <ul>
+                    <li>tally</li>
+                    <li>ccc
+                        <ul>
+                            <li>ms word</li>
+                            <li>ms excel</li>
+                            <li>ms powerpoint</li>
+                        </ul>
+                    </li>
+                    <li>basic</li>
+                    <li>python</li>
+                </ul>
+            </li>
+            <li>address</li>
+            <li>help</li>
+        </ul>
+    </div>
+</body>
+</html>

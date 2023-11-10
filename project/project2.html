@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* background-color: white; */
+            background-image: url(https://static.doofinder.com/main-files/uploads/2018/01/Top6Sales.png);
+            background-size: 100% 800px;
+            background-repeat: no-repeat;
+        }
+        .textdiv{
+            width: 455px;
+            height: 80px;
+            position:absolute;
+            left: 55px;
+            top: 50px;
+            /* border: 1px solid black; */
+            text-align: left;
+            line-height: 7mm;
+            padding: 40px;
+            font-size: 43px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 900;
+        }
+        #digital{
+            font-size: 40px;
+            text-indent: 65mm;
+            line-height: 0px;
+        }
+        #wetext{
+            line-height: 4px;
+        }
+       .abc{
+            color:yellowgreen;
+        }
+        .abcx{
+            color:red;
+        }
+        .hi{
+            color: cyan;
+        }
+        .super{
+            color:pink;
+        }
+        .roundtextdiv{
+            width: 410px;
+            height: 100px;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 215px;
+            left: 500px;
+            background-color: rgb(255, 119, 0);
+            border-radius: 15px;
+        }
+        .rounddiv{
+            width: 80px;
+            height: 80px;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 50%;
+            background-color:rgb(230, 255, 69);
+            text-align: center;
+            line-height: 80px;
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .listtext{
+            width: 300px;
+            height: 60px;
+            /* padding: 20px; */
+            /* border: 1px solid black; */
+            position: absolute;
+            left: 100px;
+            top:18px;
+            font-size: 15px;
+            line-height: 4mm;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #div2{
+            position: absolute;
+            top: 340px;
+            left: 500px;
+        }
+        .roundtextdiv:hover{
+            border: 1px solid grey;
+            box-shadow: 4px 3px 3px rgb(172, 172, 172) ;
+        }
+        
+        #div3{
+            position: absolute;
+            top: 465px;
+            left: 500px;
+        }
+        
+    </style>
+</head>
+<body id="body">
+    <div class="textdiv"><p id="wetext" class="xyz abc efg" onClick="hello()"> We design</p><p id="digital">digital</p><br> <p> products and brands</p></div>
+    <div class="roundtextdiv">
+        <div id="hello" class="rounddiv" style="color:red;border:2px solid blue;" >01</div>
+        <div class="listtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus provident libero rerum ad aut blanditiis enim soluta vitae laudantium tenetur.</div>
+    </div>
+    <div id="div2" class="roundtextdiv">
+        <div class="rounddiv" >02</div>
+        <div class="listtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus provident libero rerum ad aut blanditiis enim soluta vitae laudantium tenetur.</div>
+    </div>
+    <div id="div3" class="roundtextdiv">
+        <div class="rounddiv" style="background-color: yellowgreen;" >03</div>
+        <div class="listtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus provident libero rerum ad aut blanditiis enim soluta vitae laudantium tenetur.</div>
+    </div>
+    <script src="dom_1.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .main{
+            width: 400px;
+            height: 100px;
+            border: 1px solid black;
+            float: left;
+            margin: 20px;
+            
+        }
+        #d1{
+            background-color: green;
+            color: red;
+            text-align: center;
+            text-decoration-line: overline underline;
+            text-decoration-color: pink;
+            text-decoration-style: dashed;
+            line-height: 30px;
+            text-transform: lowercase;
+            text-indent: 50px;
+        }
+            
+           #d1 p span{
+                vertical-align: text-bottom;
+            }
+     
+        #d2{
+            background-color: rgb(55, 122, 221);
+            color: red;
+            text-align: right;
+            text-decoration-line: underline;
+            text-decoration-color: greenyellow;
+            text-decoration-style: wavy;
+            /* text-transform: uppercase; */
+            /* letter-spacing: 3px; */
+
+        }
+       #d2 p span{
+            vertical-align: text-top;
+        }
+        #d3{
+            background-color: green;
+            color: red;
+            text-align: left;
+            text-align-last: justify;
+            text-decoration-line: line-through;
+            text-transform: capitalize;
+            letter-spacing: -2px;
+        }
+         span{
+            vertical-align: baseline;
+        }
+        #d4{
+            background-color: cyan;
+            text-align:justify;
+            text-align-last: center;
+            text-decoration-line: overline;
+            line-height: 25px;
+            
+        }
+        #d4 span{
+            vertical-align: baseline;
+        }
+        #d5{
+            text-align-last: right;
+            direction: rtl;
+            word-spacing: 10px;
+        }
+        #d6{
+            direction: rtl; 
+            unicode-bidi: plaintext;
+            word-spacing: -5px;
+            letter-spacing: 3px;
+        }
+    /* img{
+            vertical-align: baseline;
+            color: pink;
+        } */
+        #d6 img{
+            width: 13px;
+            height: 13px;
+            vertical-align: bottom;
+        }
+         #d7{
+             white-space: nowrap;
+             text-shadow: 4px 2px 2px red;
+             font-family: cursive;
+         }
+         span{
+             vertical-align: sub;
+             color: blue;
+         }
+    </style>
+</head>
+<body>
+    <div class="main" id="d1"><p>ipsum dolor <span id="span1" style="color:rgb(166, 173, 238) ;">sachin</span> sit amet consecteturadipisicing elit. Aliquam exercitationem aliquid eos quo, fugit dolores!</p></div>
+    <div class="main" id="d2"><p>Lorem ipsum dolor sit <span id="span2" style="color: yellow;">sachin</span> amet consectetur adipisicing elit. Optio delectus necessitatibus quo nemo quae exercitationem, rem hic est sit repellendus!</p></div>
+    <div class="main" id="d3"><p>Lorem ipset consectetur <span style="color: lightgreen;">sachin</span> adipisicing elit. Perspiciatis at ducimus eius eveniet hic perferendis beatae? Quam, quis quidem? Necessitatibus, architecto. Suscipit dolorem placeat officia</p></div>
+    <div class="main" id="d4"><p>Lorem ipsum dolor sit amet <span style="color: purple;">sachin</span> consectetur adipisicing elit. Quas, aut ab sed assumenda exercitationem, sequi adipisci nam pariatur amet fugiat voluptatibus quaerat molestiae minima provident consectetur perferendis quia. Quod, voluptas.</p></div>
+    <div class="main" id="d5">Lorem, xplicabo quisquam <span style="color: rgb(125, 19, 239);">sachin</span> sit fuga nostrum laborum ipsa doloribus eos adipisci libero ex consequuntur, cupiditate corporis sed minima! Repellat beatae facere autem magnam? A quos consequuntur laborum repudiandae odio similique omnis dignissimos.</div>
+    <div class="main" id="d6">Lorem skldjfkls <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXDdDQW8K9N9_5zZcf1zYEG1f2aH7K0PSQ3JIZU-RHqDizWdhy_MRKABnnAfNeteHg3so&usqp=CAU" alt=""> sum .</div>
+    <div class="main" id="d7">Lorem skldjfklshj dsfa fk ahkjsdhfkjahksdjhfa ksd hfkjahs djfkash dfkhask jdhfkjashdfkjahskldhddlkahsd fkas <span style="color: cyan;">sachin</span> jdfipsum .</div>
+</body>
+</html>

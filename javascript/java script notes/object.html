@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a={
+            firstname : 'sachin',
+            lastname : 'prajapati',
+            age : 22,
+            email : 'sachin13579p@gmail.com',
+            books : ['geeta','mrithunjay','ramayana','shloak'],
+            salary : function(){
+                return 4000;
+            },
+            fullname : function( ){
+                return this.firstname + " "+ this.lastname;
+            },
+            friends : {
+                'first' : 'harsh',
+                'second' : 'rahul',
+                'third' : 'naman',
+                'founth' : 'akshay',
+            },
+        }
+        console.log(a);
+        console.log(a.lastname);
+        document.write(a.books[2] + "<br>");
+        document.write(a.salary() + "<br>");
+        document.write(a.fullname());
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("<ol>");
+
+       var now = new Date();
+       document.write("<li>" + now + "<br>");
+       document.write("<li>" + now.toDateString() + "<br>");
+       document.write("<li>" + now.getFullYear() + "<br>")
+       document.write("<li>" + now.getDate() + "<br>");
+       document.write("<li>" + now.getMonth() + "<br>");
+       document.write("<li>" + now.getHours() + "<br>");
+       document.write("<li>" + now.getMinutes() + "<br>");
+       document.write("<li>" + now.getSeconds() + "<br>");
+       document.write("<li>" + now.getMilliseconds() + "<br>");
+            now.setMonth(4);
+        document.write("<li>" +  now.toDateString() + "<br>");
+            now.setDate(4);
+        document.write("<li>" + now.toDateString() + "<br>");
+            now.setFullYear(2020);
+        document.write("<li>" + now.toDateString() + "<br>");
+            now.setHours(15);
+        document.write("<li>" + now.getHours() + "<br>");
+            now.setMilliseconds(2);
+        document.write("<li>" + now.getMilliseconds() + "<br>");
+            now.setMinutes(45);
+        document.write("<li>" + now.getMinutes() + "<br>");
+            now.setSeconds(20);
+        document.write("<li>" + now.getSeconds() + "<br>");
+            now.setMonth(10);
+        document.write("<li>" + now.getMonth() + "<br>");
+    </script>
+</body>
+</html>

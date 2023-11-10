@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .maind{
+            width: 100%;
+            height: 500px;
+            /* background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg) ;
+            background-size:  contain; */
+            /* background-repeat: repeat;     no-repeat */
+            /* background-position: top right;   top left */
+            /* background-attachment: scroll;     fixed  */
+            /* opacity:0.5;*/
+            position: absolute; 
+            
+        }
+        .main{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            float: left;
+            margin: 10px;
+
+        }
+        #d1{
+            background-color: aqua;
+        }
+        #d2{
+            background-color: rgb(225, 15, 225);
+            
+        }
+        #d3{
+            
+            background: rgba(90, 0, 0, 70);
+        }
+        #d4{
+            background-image: url(https://i.pinimg.com/originals/9c/b0/70/9cb070d62dc738a0c3a1a408d68e4af5.jpg);
+            background-size: 100% 100%;
+            /* opacity: ; */
+          
+        }
+        #d5{
+            width: 300px;
+            height: 300px;
+            border: 1px solid green;
+            background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg);
+            background-size: 100px ;
+            background-repeat: repeat-x;
+        }
+        #d6{
+            width: 300px;
+            height: 300px;
+            border: 1px solid green;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMgTGd3wZ_KePnzz-CBdAwoAitsAkO1H8jYkvpQcN71jBVf-mgFes1knw3yhhXxB011x4&usqp=CAU);
+            background-size: 100px ;
+            background-repeat: repeat-y;
+        }
+        #d7{
+            width: 300px;
+            height: 300px;
+            border: 1px solid green;
+            margin: 20px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHCeytlX9sAmdzJFxZNQZrEX44JUnGDvWuAg&usqp=CAU);
+            background-size: 100px ;
+            background-position: top right;  /*same type top left , top bottom, right*/
+        }
+        #d8{
+            width: 300px;
+            height: 300px;
+            border: 4px solid;
+            margin: 100px;
+            background: url(https://images.unsplash.com/photo-1610878180933-123728745d22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuYWRhJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat right top;
+            background-size: 100px 100px;
+            outline-style: dotted; /*same as border properties*/
+            outline-offset: 10px;
+            border-color: red purple yellow;
+            
+            
+        }
+        #d9{
+            width: 300px;
+            height: 300px;
+            border: 10px solid;
+            background-image: linear-gradient(45deg, red,yellow,green,blue);
+            border-image: url(https://media.istockphoto.com/vectors/border-frame-with-floral-pattern-vector-id162721677?k=20&m=162721677&s=612x612&w=0&h=NoFjAiO4ywQ0ZGnB2YlfGgYuVUPmWiDEZNMKCNuo30g=)  40% round;
+        }
+        #d10{
+            width: 400px;
+            height: 400px;
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQG_QAeQrotXikI4ll155i5rAYAurGok9TzKPYhLExI-q6ykIqw0K5VXC0N5dX_KjFEE&usqp=CAU),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4TijO9B_XjvAA4EaDXymsaGptSy4026Fue4wVcifGJAQyxCRhSQTw-l7owVpUQ1fW2Yw&usqp=CAU) ;
+            background-position: top left, bottom right;
+            background-repeat: no-repeat,no-repeat;
+            background-size: 150px 150px, 100px 100px;
+        }
+        #d11{
+            width: 200px;
+            height: 200px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfaLeA5JwpPfjTO_Yd9fGHYtNcl82NDoLMLcS0GUFI4OwcLmJxW91gLrHeeSF57Dk685o&usqp=CAU)right bottom no-repeat,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQG_QAeQrotXikI4ll155i5rAYAurGok9TzKPYhLExI-q6ykIqw0K5VXC0N5dX_KjFEE&usqp=CAU) left top repeat;
+            background-size: 100px 100px,100px 100px;
+            /* background-position: left top,bottom right;
+            background-repeat: no-repeat,repeat; */
+        }
+        #d12{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://media.istockphoto.com/photos/stones-in-the-ocean-at-sunrise-picture-id1264258168?k=20&m=1264258168&s=612x612&w=0&h=ujArRh70uZcNgKJm2YmSzREBC3Kee84gd1PuSYJa4qs=);
+            background-size: cover;
+        }
+        #d13{
+            width: 300px;
+            height: 300px;
+            background: url(https://st.depositphotos.com/1006706/2671/i/600/depositphotos_26715369-stock-photo-which-way-to-choose-3d.jpg);
+            background-size: contain;
+        }
+        #d14{
+            width: 300px;
+            height: 300px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNRXA-avYpL4bXirLlGLFTugVgSaIKhm6gAvnm-jgrNstbbwqb3dXeQPQWy15N4nuR3A&usqp=CAU) left top no-repeat,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuflXt0qvYx5Ohv-4niZShV55f2UiEUHNJY3BmzSxdpv1gj2X769vVytYaGpDjVMhPgGU&usqp=CAU) top right no-repeat,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFBzKKVNAUlAdZZLY80vXfwdng698AX6SzzRPw4tKsEKAFN_uErU6dAECnEoAsAUZhM90&usqp=CAU) right bottom no-repeat;
+            background-size: 100px 100px,100px 100px,auto;
+        }
+        #d15{
+            /* width: 100px;
+            height: 100px; */
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNRXA-avYpL4bXirLlGLFTugVgSaIKhm6gAvnm-jgrNstbbwqb3dXeQPQWy15N4nuR3A&usqp=CAU) no-repeat center;
+            position: relative;
+            background-size: cover;
+            height:200px;
+            width: 400px;
+        }
+        #d16{
+            width: 300px;
+            height: 300px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNRXA-avYpL4bXirLlGLFTugVgSaIKhm6gAvnm-jgrNstbbwqb3dXeQPQWy15N4nuR3A&usqp=CAU);
+            border: 2px solid red;
+            padding: 40px;
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            background-origin: border-box;/*border-box, padding-box*/
+        }
+        #d17{
+            width: 300px;
+            height: 300px;
+            border: 15px solid green;
+            background: yellow;
+            padding: 30px;
+            background-clip: padding-box;
+        }
+      .photo{
+          width: 100%;
+          height: 2000px;
+          background-image: url(https://shotkit.com/wp-content/uploads/2021/01/nature-photography.jpg);
+          position: absolute;
+          background-size: cover;
+            opacity: 0.4;
+      }
+    </style>
+</head>
+<body>
+    <div class="photo">  </div>
+    <div class="maind">
+            <div class="main" id="d1"></div>
+            <div class="main" id="d2"></div>
+            <div class="main" id="d3"></div>
+            <div class="main" id="d4"></div>
+            <div class="main" id="d5"></div>
+            <div class="main" id="d6"></div>
+            <div class="main" id="d7"></div>
+            <div class="main" id="d8"></div>
+            <div class="main" id="d9"></div>
+            <div class="main" id="d10"></div>
+            <div class="main" id="d11"></div>
+            <div class="main" id="d12"></div>
+            <div class="main" id="d13"></div>
+            <div class="main" id="d14"></div>
+            <div class="main" id="d15">15</div>
+            <div class="main" id="d16"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, neque culpa quo ad nihil tempore. Cum maxime nam explicabo fugit!</div>
+            <div class="main" id="d17"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, neque culpa quo ad nihil tempore. Cum maxime nam explicabo fugit!</div>
+    </div>
+</body>
+</html>

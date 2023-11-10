@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=["sachin",43,"prajapati"];
+        a[1]="kumar";
+        a[0]=55;
+        a[2]="sachin"; 
+        for (b=0; b<3; b++){
+        document.write(a[b] + " ");
+        }
+    </script>
+    <hr>
+    <br>
+    <script>
+           var a=["sachin",43,"prajapati"];
+        document.write(a + "<br>" );
+        a[1]="kumar";
+        document.write(a + "<br>");
+        a[0]=55;
+        document.write(a + "<br>");
+        a[2]="sachin"; 
+    </script>
+    <hr>
+    <br>
+    <script>
+         var a=["sachin",43,"prajapati"];
+        a[1]="kumar";
+        a[0]=55;
+        delete a[0];
+        a[2]="sachin"; 
+        for (b=0; b<3; b++){
+        document.write(a[b] + " ");
+        }
+        document.write("<br>");
+        var a=["sachin",43,"prajapati"];
+        delete a[1]; 
+        document.write(a);
+    </script>
+</body>
+</html>

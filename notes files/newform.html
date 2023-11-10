@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            /* background-image: url(https://media.istockphoto.com/vectors/vector-illustration-label-in-motion-with-text-register-now-vector-id1307933462?s=612x612); */
+            background-color: antiquewhite;
+            width: 35%;
+            height: auto;
+            background-size: 100% 100%;
+            position: absolute;
+            top: 50px;
+            left: 35%;
+            text-shadow: 1px 1px 1px white;
+            border-radius: 10px;
+            border-style: groove;
+            box-shadow: 5px 5px  rgb(46, 45, 45);
+
+        }
+        body{
+            background-image: url(pexels-linda-ellershein-3127880.jpg);
+            background-size: 100% auto;
+            height: 1000px;
+            width: 100%;
+        }
+        .fname{
+            border-radius: 10px;
+            padding: 5px;
+            margin: 3px;
+        }
+        #file{
+            font-size: 30px;
+            color: blue;
+            position: relative;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <form>
+            <fieldset>
+                <legend>Registration form</legend>
+                <table align="center">
+                    <tr>
+                        <td>FIRST NAME</td>
+                        <td><input  class="fname" type="text" value="" placeholder="sachin"  maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>LAST NAME</td>
+                        <td><input class="fname" type="text" value="prajapati" autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>FATHER NAME</td>
+                        <td><input class="fname" type="text" name="" id="" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>MOTHER NAME</td>
+                        <td><input class="fname" type="text" value="mname" ></td>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS</td>
+                        <td><textarea name="text" id="" cols="20" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>GENDER</td>
+                        <td><input type="radio" name="gender" checked="">male
+                       <input type="radio" name="gender"> Female
+                       <input type="radio" name="gender"> other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MOBILE NO.</td>
+                        <td><input class="fname" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>AADHAR NO.</td>
+                        <td><input class="fname" type="number" maxlength="12"></td>
+                    </tr>
+                    <tr>
+                        <td>E-MAIL</td>
+                        <td><input class="fname" type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>PASSWORD</td>
+                        <td><input class="fname" type="password" ></td>
+                    </tr>
+                    <tr>
+                        <td>COUNTRY</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">INDIA</option>
+                                <option value="">JAPAN</option>
+                                <option value="">AMERICA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CITY</td>
+                        <td>
+                            <select name="" id="">
+                            <optgroup label="uttar pradesh">
+                                        <OPTIOn>NAJIBABAD</OPTIOn>
+                                        <OPTIOn>BIJNOR</OPTIOn>
+                                        <option value="">kiratpur</option>
+                            </optgroup>
+                            <optgroup label="uttrakhand">
+                                <option value="">haridwar</option>
+                                <option value="">kotdwar</option>
+                                <option value="">dehradoon</option>
+                            </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>COURCES</td>
+                        <td><input type="checkbox">BASIC
+                        <input type="checkbox">TALLY
+                        <br>
+                        <input type="checkbox">CCC &nbsp;&nbsp;
+                        <input type="checkbox">WEB DESIGNING</td>
+                    </tr>
+                    <tr>
+                        <td>D.O.B.</td>
+                        <td>
+                            <input class="fname" type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DATE & TIME</td>
+                        <td>
+                            <input class="fname" type="datetime-local">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>time</td>
+                        <td><input class="fname" type="time"></td>
+                    </tr>
+                    <tr>
+                        <td>month</td>
+                        <td><input class="fname" type="month"></td>
+                    </tr>
+                    <tr>
+                        <td>week</td>
+                        <td><input class="fname" type="week"></td>
+                    </tr>
+                    <tr>
+                        <td>range</td>
+                        <td><input class="fname" type="range" min="0" max="200" value="20"></td>
+                    </tr>
+                    <tr>
+                        <td>upload your picture</td>
+                        <td>
+                            <input class="fname" type="file"><i id="file" class="fa fa-file"></i>
+                        </td>
+                       <tr>
+                           <td>choose your color</td>
+                           <td>
+                               <input type="color">
+                            </td>
+                       </tr>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="submit"></td>
+                        <td><input type="submit" value="reset"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

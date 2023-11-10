@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var values= new Object();
+
+        values.firstname = "sachin";
+        values.lastname = 'prajapati';
+        values.job = 'teacher';
+        values.age = 22;
+        values.fullname = function() {
+                return this.firstname + " " + this.lastname;
+            };
+            document.write(values + "<br>");
+            document.write(values.firstname + "<br>");
+            document.write(values['job'] + "<br>");
+            // also
+            document.write(values.fullname());
+            
+    </script>
+</body>
+</html>

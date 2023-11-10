@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main_div_of_hmpage{
+            
+            width: 100%;
+            height: 600px;
+            border: 1px solid black;
+            position: absolute;
+            /* background-image: url(https://i2.wp.com/windowscustomization.com/wp-content/uploads/2018/12/Neon-Tanjim.gif?fit=750%2C354&quality=80&strip=all&ssl=1); */
+            /* background-image: url(https://thumbs.gfycat.com/HomelyBewitchedItaliangreyhound-size_restricted.gif); */
+            /* background-image: url(https://thumbs.gfycat.com/HomelyBewitchedItaliangreyhound-size_restricted.gif); */
+            /* background-image: url(https://i.pinimg.com/originals/3b/5e/61/3b5e61a6944fccbcb9f1d6015c6a3c48.gif); */
+            background-image: url(https://wallpapercave.com/wp/wp7720762.gif);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color: red;
+               
+        }
+
+        .login_button{
+            width: 150px;
+            height: 30px;
+            border: 1px solid black;
+            position: relative;
+            top: 350px;
+            left: 660px;
+            text-align: center;
+            animation-name: sagar_border;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            color: rgb(19, 4, 4);
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 30px;animation-iteration-count: infinite;
+        }
+        .singup_button{
+            width: 150px;
+            height: 30px;
+            border: 1px solid black;
+            position: absolute;
+            top: 350px;
+            left: 500px;
+            text-align: center;
+            animation-name: sagar_border;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            font-size: 15px;
+            color: rgb(33, 7, 7);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 30px;
+
+        }
+        @keyframes sagar_border{
+            0%{
+                border: 2px solid violet;
+            }
+            16%{
+                border: 3px solid indigo;
+            }
+            33%{
+                border: 2px solid blue;
+            }
+            49%{
+                border: 3px solid green;
+            }
+            65%{
+                border: 2px solid yellow;
+            }
+            83%{
+                border: 3px solid orange;
+            }
+            100%{
+                border: 2px solid red;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main_div_of_hmpage">
+        <button class="login_button" >log in</button>
+        <button class="singup_button">creat an account</button>
+    </div>
+</body>
+</html>

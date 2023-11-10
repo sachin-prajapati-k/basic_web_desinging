@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.maind{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black; 
+    position: absolute;
+    top: 100px;
+     animation-name: sachin3;
+    animation-duration: 7s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    border-radius: 27px;
+}
+@keyframes sachin3 {
+    0%{ background-image: linear-gradient(45deg, red, blue, green, yellow);}
+    5%{ background-image: linear-gradient(45deg,blue, green, yellow, red );}
+    10%{ background-image: linear-gradient(45deg, green, yellow, red, blue);
+    }
+    15%{background-image: linear-gradient(45deg, yellow, red, blue, green);
+    }
+    20%{ background-image: linear-gradient(45deg, red, blue, green, yellow);
+    }
+    25%{ background-image: linear-gradient(45deg, red, blue, green, yellow);}
+    30%{ background-image: linear-gradient(45deg,blue, green, yellow, red );}
+    35%{ background-image: linear-gradient(45deg, green, yellow, red, blue);
+    }
+    40%{background-image: linear-gradient(45deg, yellow, red, blue, green);
+    }
+    45%{ background-image: linear-gradient(45deg, red, blue, green, yellow);
+    }
+    50%{ background-image: linear-gradient(45deg, red, blue, green, yellow);}
+    55%{ background-image: linear-gradient(45deg,blue, green, yellow, red );}
+    60%{ background-image: linear-gradient(45deg, green, yellow, red, blue);
+    }
+    65%{background-image: linear-gradient(45deg, yellow, red, blue, green);
+    }
+    70%{ background-image: linear-gradient(45deg, red, blue, green, yellow);
+    }
+    75%{ background-image: linear-gradient(45deg, red, blue, green, yellow);}
+    80%{ background-image: linear-gradient(45deg,blue, green, yellow, red );}
+    85%{ background-image: linear-gradient(45deg, green, yellow, red, blue);
+    }
+    90%{background-image: linear-gradient(45deg, yellow, red, blue, green);
+    }
+    100%{ background-image: linear-gradient(45deg, red, blue, green, yellow);
+    }
+}
+.sd1{
+        width: 99%;
+        height: 45px;
+        border: px solid black;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+           
+
+    }
+    #ssd1esc{
+        width: 50px;
+        height: 25px;
+        border: 1px solid black;
+        margin-left: 5px;
+        float: left;
+        margin-top: 5px;
+        background-color: rgb(230, 135, 135);
+        border-radius: 20px 00 00 00;
+    }
+    #ssd12{
+        width: 50px;
+        height: 25px;
+        border: 1px solid black;
+        margin-left: 70px;
+        float: left;
+        margin-top: 5px;
+        background-color: aquamarine;
+        border-radius: 8px;
+    }
+   .ssd11{
+       width: 50px;
+       height: 25px;
+       border: 1px solid black;
+       margin-top: 5px;
+       margin-left: 5px;
+       float: left;
+       background-color: aquamarine;
+       border-radius: 8px;
+   }
+   #ssd13{
+    width: 50px;
+    height: 25px;
+    border: 1px solid black;
+    margin-left: 30px;
+    float: left;
+    margin-top: 5px;
+    background-color: aquamarine;
+    border-radius: 8px;
+   }
+
+  
+    /*2nd div numeric symbol key*/
+   #ssd21r{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: left;
+    border-radius: 20px 00 00 00;
+    background-color: black;
+    color: white;
+   }
+    #sd2{
+        width: 99%;
+        height: 55px;
+        border: px solid black;
+        margin-top: 5px;
+        margin-left: 5px;
+        text-align: center;
+        /* background-color: black; */
+    }
+   .ssd21{
+       width: 50px;
+       height: 50px;
+       border: 1px solid black;
+       margin-left: 5px;
+       float: left;
+       background-color: black;
+       color: white;
+   }
+   #ssd22{
+       width: 50px;
+       height: 50px;
+       border: 1px solid black;
+       margin-left: 30px;
+       float: left;
+       background-color: black;
+       color: white;
+   }
+   #ssd23{
+       width: 50px;
+       height: 50px;
+       border: 1px solid black;
+       margin-left: 30px;
+       float: left;
+       background-color: black;
+       color: white;
+   }
+   #ssd21minus{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: left;
+    border-radius: 00 20px 00 00;
+    background-color: black;
+    color: white;
+    
+   }
+/* div 3rd row + 2nd row combi......3rd main row  qwerty */
+   .sd3{
+    width: 99%;
+    height: 110px;
+    border: px solid black;
+    margin-top: 1px;
+    margin-left: 5px;
+    text-align: center;
+
+   }
+   #ssd31{
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+   }
+   .ssd31{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+   }
+   
+   #ssd32{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 28px;
+    background-color: black;
+    color: white;
+   }
+   #ssd33{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+   }
+   #ssd31plus{
+    width: 50px;
+    height: 105px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px; 
+    background-color: black;
+    color: white;
+   }
+   /*  asdfg*/
+   #sssd3{
+       width: 94%;
+       height: 55px;
+       border: px solid black;
+       position: absolute;
+       margin-top: 55px;
+       margin-left: 3px;
+       
+   }
+   #sssd321{
+       width: 95px;
+       height: 50px;
+       border: 1px solid black;
+       margin-left: 3px;
+       float: left;
+       background-color: black;
+       color: white;
+   }
+   #sssd322{
+    width: 120px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 3px;
+    float: left ;
+    background-color: black;
+    color: white;
+    
+   }
+   #sssd333{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 226px;
+    float: left;
+    background-color: black;
+    color: white;
+    
+   }
+
+   /* div 4rth + 5th row div combi -enter*/
+
+  #ssd41{
+      width: 125px;
+      height: 50px;
+      border: 1px solid black;
+      margin-left: 5px;
+      float: left;
+      text-align: center;
+      text-shadow: 5px;
+      background-color: black;
+      color: white;
+  }
+  #ssd42{
+    width: 145px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: left;
+    background-color: black;
+    color: white;
+  }
+  #ssd43{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 92px;
+    float: left;
+    background-color: black;
+    color: white;
+  }
+  #ssd44{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 85px;
+    float: left;
+    background-color: black;
+    color: white;
+  }
+  #ssd41enter{
+    width: 50px;
+    height: 105px;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: left;border-radius: 00 00 20px 00;
+    background-color: black;
+    color: white;
+
+  }
+  /*last row sp bar 6th*/
+  #sssd421ctrl{
+    width: 81px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+    border-radius: 00 00 00 20px;
+    background-color: black;
+    color: white;
+  }
+ #sssd421{
+     width: 81px;
+     height: 50px;
+     border: 1px solid black;
+     float: left;
+     margin-left: 5px;
+     background-color: black;
+     color: white;
+ }
+ .sssd422a{
+     width: 60px;
+     height: 50px;
+     border: 1px solid black;
+     margin-left: 5px;
+     float: left;
+     background-color: black;
+     color: white;
+ }
+ #sssd421sb{
+     width: 331px;
+     height: 50px;
+     border: 1px solid black;
+     margin-left: 6px;
+     float: left;
+     background-color: black;
+     color: white;
+ }
+ #sssd422{
+     width: 50px;
+     height: 50px;
+     border: 1px solid black;
+     margin-left: 35px;
+     float: left;
+     background-color: black;
+     color: white;
+ }
+ #sssd423{
+     width: 105px;
+     height: 50px;
+     border: 1px solid black;
+     margin-left: 30px;
+     float: left;
+     background-color: black;
+     color: white;
+ }
